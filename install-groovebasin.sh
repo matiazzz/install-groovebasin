@@ -44,7 +44,7 @@ echo "Configuring groovebasin....."
   bash -c 'echo "#!/bin/bash" > ~/.groovebasin/run.sh'
   bash -c 'echo "cd ~/.groovebasin/" >> ~/.groovebasin/run.sh'
   bash -c 'echo "npm start" >> ~/.groovebasin/run.sh'
-  ln -s ~/.groovebasin/run.sh /usr/bin/groovebasin
+  sudo ln -s ~/.groovebasin/run.sh /usr/bin/groovebasin
   sudo chmod 777 ~/.groovebasin/
 } &> /dev/null
 
